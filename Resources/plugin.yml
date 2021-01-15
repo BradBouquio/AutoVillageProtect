@@ -1,0 +1,9 @@
+name: AutoVillageProtect
+main: com.gmail.bradbouquio.AutoVillageProtect.AutoVillageProtect
+version: 1.0
+depend: [WorldGuard, WorldEdit]
+api-version: 1.16
+commands:
+  avp:
+    description: Base command for AutoVillageProtect
+    usage: /avp

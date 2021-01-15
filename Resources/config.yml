@@ -1,0 +1,18 @@
+#How far out you want to search for villages.
+SearchBoundaries:
+  MinX: -5000
+  MaxX: 5000
+  MinZ: -5000
+  MaxZ: 5000
+#The radius of the region that is created on each village.
+#A radius of 80 is only need for the largest villages, so
+#you may want to reduce it a bit
+ProtectionRadius: 80
+#You can add additional flags under these, or remove ones you don't want.
+#Flag names can be found at https://worldguard.enginehub.org/en/latest/regions/flags/
+#Only state and string type flags work at the moment.
+Flags:
+  greeting: Villages are protected!
+  damage-animals: deny
+  interact: allow
+  chest-access: allow
